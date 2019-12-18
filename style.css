@@ -1,26 +1,32 @@
-header{
+header {
     background-color: white;
     color: grey;
     text-align: center;
     clear: both;
     margin-bottom: 10px;
 }
-nav{
-    float: right;
-    clear: both;
 
+nav {
+    clear: both;
+    text-align: center;
+    color: grey;
+    background-color: white;
+    height: 20px;
+    margin-bottom: 10px;
 }
-section{
+
+section {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     background-color: purple;
-    width: 495px;
-    height:300px;
+    width: 400px;
+    height: 300px;
     clear: both;
-
 }
-article{
+
+article {
+    display: block;
     padding-left: 15px;
     padding-right: 15px;
     width: 250px;
@@ -28,25 +34,28 @@ article{
     background-color: grey;
     text-align: center;
 }
- {
-    box-sizing: border-box;
-  }
+
 aside {
+    display: flexbox;
+    float: right;
     color: black;
-    background-color:white;
-    width: 495px;
-    height:300px;
+    background-color: white;
+    width: 400px;
+    height: 300px;
     margin-bottom: 10px;
     text-align: center;
     clear: both;
 }
-footer{
+
+footer {
+    margin-top: 10px;
     height: 20px;
     text-align: center;
     background-color: white;
     clear: both;
 }
-body{
+
+body {
     width: 850px;
     background-color: grey;
 }
