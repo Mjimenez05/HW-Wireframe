@@ -1,10 +1,9 @@
 header{
-    background-color: teal;
-    color: white;
+    background-color: white;
+    color: grey;
     text-align: center;
     clear: both;
     margin-bottom: 10px;
-    width: 85px;
 }
 nav{
     float: right;
@@ -18,18 +17,36 @@ section{
     background-color: purple;
     width: 495px;
     height:300px;
+    clear: both;
+
 }
-article{}
+article{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 250px;
+    height: 150px;
+    background-color: grey;
     text-align: center;
 }
+ {
+    box-sizing: border-box;
+  }
 aside {
     color: black;
-    background-color: darkgrey;
-    height: 350px;
-    width: 250px;
+    background-color:white;
+    width: 495px;
+    height:300px;
     margin-bottom: 10px;
-    float: right;
+    text-align: center;
+    clear: both;
 }
 footer{
+    height: 20px;
+    text-align: center;
+    background-color: white;
     clear: both;
+}
+body{
+    width: 850px;
+    background-color: grey;
 }
