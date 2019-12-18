@@ -3,7 +3,7 @@ header {
     color: grey;
     text-align: center;
     clear: both;
-    margin-bottom: 10px;
+    margin: 10px 10px 10px 10px;
 }
 
 nav {
@@ -12,42 +12,59 @@ nav {
     color: grey;
     background-color: white;
     height: 20px;
-    margin-bottom: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+.section-box {
+    display: inline;
 }
 
 section {
+    margin-left: 10px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    background-color: purple;
-    width: 400px;
-    height: 300px;
+    color: grey;
+    background-color: white;
+    width: 350px;
+    height: 200px;
     clear: both;
 }
 
+p {
+    margin: 10px 10px 10px 10px;
+    color: grey;
+    background-color: white;
+}
+
+h1 {
+    color: grey;
+    margin: 10px;
+    background-color: white;
+}
+
 article {
-    display: block;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 250px;
-    height: 150px;
+    color: white;
+    float: none;
+    margin: 10px 10px 10px 10px;
+    width: 300px;
+    height: 120px;
     background-color: grey;
     text-align: center;
+    clear: both;
 }
 
 aside {
-    display: flexbox;
-    float: right;
-    color: black;
+    color: grey;
     background-color: white;
-    width: 400px;
-    height: 300px;
-    margin-bottom: 10px;
+    width: 350px;
+    height: 200px;
+    margin: 10px 10px 10px 10px;
     text-align: center;
     clear: both;
 }
 
 footer {
+    color: grey;
     margin-top: 10px;
     height: 20px;
     text-align: center;
