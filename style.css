@@ -1,0 +1,35 @@
+header{
+    background-color: teal;
+    color: white;
+    text-align: center;
+    clear: both;
+    margin-bottom: 10px;
+    width: 85px;
+}
+nav{
+    float: right;
+    clear: both;
+
+}
+section{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: purple;
+    width: 495px;
+    height:300px;
+}
+article{}
+    text-align: center;
+}
+aside {
+    color: black;
+    background-color: darkgrey;
+    height: 350px;
+    width: 250px;
+    margin-bottom: 10px;
+    float: right;
+}
+footer{
+    clear: both;
+}
