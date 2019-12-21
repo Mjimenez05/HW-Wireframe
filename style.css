@@ -1,78 +1,53 @@
-header {
+header,
+nav,
+section,
+aside,
+footer {
+    display: block;
     background-color: white;
     color: grey;
     text-align: center;
-    clear: both;
-    margin: 10px 10px 10px 10px;
-}
-
-nav {
-    clear: both;
-    text-align: center;
-    color: grey;
-    background-color: white;
-    height: 20px;
-    margin: 10px 10px 10px 10px;
-}
-
-.section-box {
-    display: inline;
+    margin: 10px;
+    padding: 10px;
 }
 
 section {
-    margin-left: 10px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: grey;
-    background-color: white;
-    width: 350px;
+    display: block;
+    float: left;
+    width: 45%;
     height: 200px;
-    clear: both;
+    overflow: hidden;
 }
 
-p {
+aside {
+    display: block;
+    float: right;
+    width: 40%;
+    height: 200px;
+    overflow: hidden;
+}
+
+p,
+h1 {
+    text-align: center;
     margin: 10px 10px 10px 10px;
     color: grey;
-    background-color: white;
-}
-
-h1 {
-    color: grey;
-    margin: 10px;
     background-color: white;
 }
 
 article {
+    padding: 10px;
     color: white;
-    float: none;
-    margin: 10px 10px 10px 10px;
-    width: 300px;
-    height: 120px;
     background-color: grey;
-    text-align: center;
-    clear: both;
-}
-
-aside {
-    color: grey;
-    background-color: white;
-    width: 350px;
-    height: 200px;
-    margin: 10px 10px 10px 10px;
-    text-align: center;
-    clear: both;
-}
-
-footer {
-    color: grey;
-    margin-top: 10px;
-    height: 20px;
-    text-align: center;
-    background-color: white;
-    clear: both;
 }
 
 body {
-    width: 850px;
+    max-width: 960px;
     background-color: grey;
 }
+
+.clear {
+    clear: both;
+}
+
+footer {}
