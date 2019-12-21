@@ -12,7 +12,6 @@ footer {
 }
 
 header {
-    margin-bottom: 0px;
     clear: both;
 }
 
@@ -20,14 +19,11 @@ section {
     display: block;
     float: left;
     width: 45%;
-    height: 200px;
 }
 
 aside {
-    padding: 10px;
     display: block;
     float: right;
-    margin: 10px;
     width: 45%;
     height: 200px;
     overflow: hidden;
@@ -36,16 +32,24 @@ aside {
 p,
 h1 {
     text-align: center;
-    margin: 10px;
+    margin: 0 auto;
     color: grey;
     background-color: white;
 }
 
+.what {
+    font-size: 10px;
+}
+
+#article-body {
+    font-size: 20px;
+}
+
 article {
+    margin: 0 auto;
     padding: 10px;
     color: white;
     background-color: grey;
-    height: 75%;
 }
 
 body {
@@ -54,11 +58,6 @@ body {
 }
 
 .clear {
-    clear: both;
-}
-
-footer {
-    margin-top: 10px;
     clear: both;
 }
 
